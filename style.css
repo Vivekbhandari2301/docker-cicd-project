@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+}
+
+nav h1{
+    color:#ff3c00;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,.5),
+    rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.content h2{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.content p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    background:#ff3c00;
+    color:white;
+    cursor:pointer;
+    border-radius:30px;
+    font-size:1rem;
+}
+
+.cars{
+    padding:80px 8%;
+}
+
+.cars h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.car-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+    color:#bbb;
+}

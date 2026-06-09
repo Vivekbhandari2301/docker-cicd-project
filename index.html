@@ -1,214 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vivek Bhandari | Cloud & DevOps Engineer</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
-
-body{
-    background:#0f172a;
-    color:white;
-    line-height:1.6;
-}
-
-header{
-    text-align:center;
-    padding:80px 20px;
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-}
-
-header h1{
-    font-size:3rem;
-    color:#38bdf8;
-}
-
-header p{
-    font-size:1.2rem;
-    margin:20px 0;
-}
-
-.btn{
-    display:inline-block;
-    background:#38bdf8;
-    color:black;
-    padding:12px 25px;
-    margin:10px;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-}
-
-section{
-    padding:60px 10%;
-}
-
-.section-title{
-    text-align:center;
-    color:#38bdf8;
-    margin-bottom:40px;
-    font-size:2rem;
-}
-
-.about{
-    text-align:center;
-}
-
-.skills{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:20px;
-}
-
-.skill-card{
-    background:#1e293b;
-    padding:20px;
-    border-radius:10px;
-    text-align:center;
-    transition:0.3s;
-}
-
-.skill-card:hover{
-    transform:translateY(-5px);
-}
-
-.pipeline{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:15px;
-}
-
-.step{
-    background:#1e293b;
-    padding:20px;
-    border-radius:10px;
-    min-width:150px;
-    text-align:center;
-}
-
-.projects{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:20px;
-}
-
-.project-card{
-    background:#1e293b;
-    padding:20px;
-    border-radius:10px;
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-    background:#1e293b;
-}
-
-.highlight{
-    color:#38bdf8;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Motors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Vivek Bhandari</h1>
-    <p>Cloud | AWS | DevOps Engineer  | VALORANTlife raze main🎶💆‍♀️💆‍♀️🤷🤷🤷🤷💆💆🧖‍♀️🧖‍♀️🧑‍🦽‍➡️🧑‍🦽‍➡️👩‍🦽👩‍🦽👨‍🦼👨‍🦼👨‍🦼 </p>
+    <header>
+        <nav>
+            <h1>Velocity Motors</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>
-        Automated CI/CD Deployment using
-        <span class="highlight">GitHub Actions</span>,
-        <span class="highlight">Docker</span> and
-        <span class="highlight">AWS EC2</span>
-    </p>
-
-    <a href="#" class="btn">View Project</a>
-    <a href="#" class="btn">GitHub Repository</a>
-</header>
-
-<section>
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about">
-        <p>
-            MCA Graduate passionate about Cloud Computing,
-            AWS, DevOps and Automation.
-            Experienced with Docker, GitHub Actions,
-            Linux, AWS and CI/CD pipelines.
-        </p>
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">Technical Skills</h2>
-
-    <div class="skills">
-
-        <div class="skill-card">AWS</div>
-        <div class="skill-card">Docker</div>
-        <div class="skill-card">Git</div>
-        <div class="skill-card">GitHub Actions</div>
-        <div class="skill-card">Linux</div>
-        <div class="skill-card">Terraform</div>
-        <div class="skill-card">Kubernetes</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">CI/CD Pipeline Workflow</h2>
-
-    <div class="pipeline">
-
-        <div class="step">Developer</div>
-        <div class="step">GitHub</div>
-        <div class="step">GitHub Actions</div>
-        <div class="step">Docker Build</div>
-        <div class="step">AWS EC2</div>
-        <div class="step">Production Website</div>
-
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">Projects</h2>
-
-    <div class="projects">
-
-        <div class="project-card">
-            <h3>Docker CI/CD Pipeline</h3>
-            <p>
-                Automated deployment using GitHub Actions,
-                Docker and AWS EC2.
-            </p>
+    <section class="hero">
+        <div class="content">
+            <h2>Drive Beyond Limits</h2>
+            <p>Experience luxury, performance, and innovation.</p>
+            <button>Explore Cars</button>
         </div>
+    </section>
 
-        <div class="project-card">
-            <h3>Smart Static Website on AWS</h3>
-            <p>
-                Built using Amazon S3, CloudFront,
-                AWS WAF and CloudWatch.
-            </p>
+    <section class="cars">
+        <h2>Featured Cars</h2>
+
+        <div class="car-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800" alt="">
+                <h3>Sport GT</h3>
+                <p>550 HP Performance Engine</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800" alt="">
+                <h3>Luxury X</h3>
+                <p>Premium Comfort & Technology</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800" alt="">
+                <h3>Electric Z</h3>
+                <p>Future of Sustainable Driving</p>
+            </div>
+
         </div>
-
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Vivek Bhandari | Cloud & DevOps Portfolio</p>
-</footer>
+    </section>
 
 </body>
 </html>
